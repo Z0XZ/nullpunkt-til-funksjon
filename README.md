@@ -10,7 +10,7 @@ nullpunkt(a, b, c)
 
 Ta utgangspunkt i programmer som er laget i python-filen "nullpunkt.py" og utvid programmet slik at det klarer denne oppgaven.
 
-Kriterier for å få til oppgaven:
+### Kriterier for å få til oppgaven:
 1. Om funksjonen ikke har noen nullpunkt skal den returnere "Funksjonen har ingen nullpunkter!".
 2. Om funksjonen kun har ett nullpunkt skal den returnere det ene nullpunktet som en avrundet float med 2 desimaler
 3. Om funksjonen har to nullpunkt skal den returnere begge nullpunktene slik: (nullpunkt1, nullpunkt2) der begge nullpunktene skal være avrundet til 2 desimaler.
@@ -22,7 +22,7 @@ def nullpunkt(a, b, c):
   #Hvis ingen nullpunkt:
     return "Funksjonen har ingen nullpunkter!"
   #Hvis kun ett nullpunkt:
-    return nullpunkt1
+    return nullpunkt1 #Et flyttall avrundet til to desimaler.
   #Hvis to nullpunkt:
-    return (nullpunkt1, nullpunkt2)
+    return (nullpunkt1, nullpunkt2) En tuppel med to flyttall som begge er avrundet til to desimaler.
    ```
